@@ -1,0 +1,52 @@
+#profile {
+  width: 300px;
+  background-color: rgb(97, 69, 199);
+  height: 900px;
+  text-align: center;
+  font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(247, 247, 247);
+}
+
+#body {
+  margin: 48px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+  color: #121212;
+}
+
+a {
+  text-decoration: none;
+}
+
+a h3 {
+  color: #fff;
+}
+
+h1 {
+  font-size: 62px;
+  margin: 0px;
+  color: rgb(97, 69, 199);
+}
+h1 strong {
+  color: #121212;
+}
+h2 {
+  margin: 0px;
+}
+#about {
+  font-size: 20px;
+}
+#skills {
+  font-size: 20px;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .block {
+            /* Utiliza todo o espaço disponivel, aloca um bloco todo, o padrao da div é block */
+            display: block;
+        }
+
+        .inline {
+            /* so utiliza o espaco necessario, ignora width e heigth */
+            display: inline;
+        }
+
+        .inline-block {
+            /* so utiliza o espaco necessario, ignora width e heigth */
+            display: inline-block;
+
+        }
+
+        .table {
+            /* so utiliza o espaco necessario, ignora width e heigth */
+            display: table;
+            /* display: table-cell */
+            /* vertical-align: middle */
+        }
+
+        /* .float-left.red {
+            float: left;
+        } */
+
+        .floatleft.blue {
+            float: left;
+        }
+
+        .floatleft.green {
+            float: left;
+        }
+
+        /* .floatrigth.red {
+            float: rigth;
+        } */
+
+        /* .floatrigth.blue {
+            float: rigth;
+        } */
+
+        .floatrigth.green {
+            float: rigth;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Aula CSS - Display</h1>
+    </header>
+    <section>
+        <h3>Block</h3>
+        <div class="block red"></div>
+        <div class="block blue"></div>
+        <div class="block green"></div>
+    </section>
+    <hr>
+    <section>
+        <h3>Inline</h3>
+        <div class="inline red">
+            <span> 123 </span>
+        </div>
+        <div class="inline blue">
+            <span> 123456 </span>
+        </div>
+        <div class="inline green"><span> 1234567890 </span></div>
+    </section>
+    <hr>
+    <section>
+        <h3>Inline block</h3>
+        <div class="inline-block red">
+            <span> 123 </span>
+        </div>
+        <div class="inline-block blue">
+            <span> 123456 </span>
+        </div>
+        <div class="inline-block green"><span> 1234567890 </span></div>
+    </section>
+    <hr>
+    <section>
+        <h3>Table</h3>
+        <div class="table red">
+            <span> 123 </span>
+        </div>
+        <div class="table blue">
+            <span> 123456 </span>
+        </div>
+        <div class="table green"><span> 1234567890 </span></div>
+    </section>
+    <hr>
+    <section>
+        <h3>Float Left</h3>
+        <div class="floatleft red">
+            <span> 123 </span>
+        </div>
+        <div class="floatleft blue">
+            <span> 123456 </span>
+        </div>
+        <div class="floatleft green"><span> 1234567890 </span></div>
+    </section>
+
+
+</body>
+
+</html>

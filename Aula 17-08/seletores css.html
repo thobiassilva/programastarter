@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula CSS</title>
+
+    <style>
+        /* Recomendado para remover a margem e padding de todos os elementos */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* o : sao pseudo-classes  */
+        h1:hover {
+            color: red;
+        }
+
+        .menuParagrafo {
+            color: blue;
+        }
+
+        #menuParagrafo {
+            background-color: gray;
+        }
+
+        a[href="https://growdev.com.br"] {
+            background-color: green;
+        }
+
+        a {
+            background-color: orange;
+        }
+
+        /* filhos do pai, mesmo que estejam dentro do de outros elementos */
+        section p {
+            color: green;
+        }
+
+        /* Filhos Diretos do elemtno pai */
+        section>p {
+            border: 1px solid purple;
+        }
+
+        /* Primeiro irmao */
+        header+p {
+            background-color: red;
+        }
+
+        /* Tio, pega todos os irmaos */
+        header~p {
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Aula CSS - Seletores</h1>
+        <p>teste de CSS</p>
+    </header>
+    <p>Primeiro Irmao</p>
+    <br>
+    <p>Segundo irmao</p>
+    <hr>
+    <br>
+    <section>
+        <p class="menuParagrafo">Primeiro paragrafo</p>
+        <br>
+        <div>
+            <p id="menuParagrafo" class="menuParagrafo">Segundo paragrafo</p>
+        </div>
+        <br />
+        <a href="https://growdev.com.br"> growdev</a>
+        <br />
+        <a href="https://google.com.br"> google</a>
+    </section>
+</body>
+
+</html>
