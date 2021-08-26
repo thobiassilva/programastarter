@@ -22,13 +22,13 @@ function calculaMedia(aluno, nota1, nota2, nota3) {
 
   if (ma >= 9) {
     conceito = "A";
-  } else if (ma >= 7.5 && ma < 9) {
+  } else if (ma >= 7.5) {
     conceito = "B";
-  } else if (ma >= 6 && ma < 7.5) {
+  } else if (ma >= 6) {
     conceito = "C";
-  } else if (ma >= 4 && ma < 6) {
+  } else if (ma >= 4) {
     conceito = "D";
-  } else if (ma < 4) {
+  } else {
     conceito = "E";
   }
 
