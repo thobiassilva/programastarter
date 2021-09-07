@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 2</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+      #menu {
+        background-color: rgb(88, 88, 241);
+        height: 100px;
+      }
+      #title {
+        float: left;
+        margin-left: 15px;
+        color: white;
+      }
+      #profilePhoto {
+        border-radius: 50%;
+        width: 70px;
+        float: right;
+        margin: 15px;
+      }
+    </style>
+  </head>
+  <body style="margin: 0%">
+    <header id="menu">
+      <h1 id="title" onclick="changeTitle()">Menu</h1>
+      <img
+        id="profilePhoto"
+        src="https://avatars.githubusercontent.com/u/39360514?v=4"
+        alt="profile photo"
+        onclick="hide()"
+      />
+    </header>
+    <script src="atividade2.js"></script>
+  </body>
+</html>
