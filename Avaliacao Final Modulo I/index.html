@@ -12,22 +12,18 @@
     <title>Thobias Pereira Silva</title>
   </head>
 
-  <body>
+  <body onload="onLoad()">
     <header>
       <section id="menuLeft">
-        <img
-          id="profilePhoto"
-          src="https://avatars.githubusercontent.com/u/39360514?v=4"
-          alt="profile photo"
-        />
+        <img id="profilePhoto" src="" alt="profile photo" />
         <nav>
-          <a href="">
+          <a href="#sobre" onclick="about()">
             <h4>SOBRE</h4>
           </a>
-          <a href="">
+          <a href="#conhecimentos">
             <h4>CONHECIMENTOS</h4>
           </a>
-          <a href="">
+          <a href="#objetivos">
             <h4>OBJETIVOS</h4>
           </a>
         </nav>
@@ -36,30 +32,27 @@
 
     <div id="body">
       <section>
-        <h1><span id="name">JOÃO</span> <span id="lastName">DA SILVA</span></h1>
+        <h1><span id="name"></span> <span id="lastName"></span></h1>
         <h2>
-          <span id="andress">RUA PRINCIPAL, 345. CAMPO BOM - RS</span>
-          <span id="email">JOAO@SILVA.COM</span>
-          <span id="phone">(51) 99687-3769</span>
+          <span id="andress"></span>
+          <span id="email"></span>
+          <span id="phone"></span>
         </h2>
       </section>
-      <section id="content">
-        <p>
-          Eu sou uma pessoa muito divertida e objetiva, sei o que quero na vida. Adoro tecnologia e
-          programação.
-        </p>
+      <section>
+        <p id="content"></p>
       </section>
       <section>
-        <a id="linkedin" href="" target="_blank">
+        <a id="linkedin" href="#" target="_blank">
           <img src="./assets/icons/linkedin.png" alt="linkedin" />
         </a>
-        <a id="github" href="" target="_blank">
+        <a id="github" href="#" target="_blank">
           <img src="./assets/icons/github.png" alt="github" />
         </a>
-        <a id="twitter" href="" target="_blank">
+        <a id="twitter" href="#" target="_blank">
           <img src="./assets/icons/twitter.png" alt="twitter" />
         </a>
-        <a id="facebook" target="_blank">
+        <a id="facebook" href="#" target="_blank">
           <img src="./assets/icons/facebook.png" alt="facebook" />
         </a>
       </section>
