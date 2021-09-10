@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atividade 1</title>
+  </head>
+  <body onload="addContent()">
+    <div id="content"></div>
+    <script>
+      function addContent() {
+        let content = document.getElementById('content');
+        var span = document.createElement('span');
+        var text = document.createTextNode('Algum texto');
+        span.appendChild(text);
+        content.appendChild(span);
+      }
+    </script>
+  </body>
+</html>
