@@ -1,0 +1,51 @@
+* {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  color: #202020;
+}
+
+body {
+  background-color: rgb(247, 247, 247);
+}
+
+#menuLeft {
+  background-color: rgba(178, 98, 65, 255);
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+a h5 {
+  margin: 20px;
+  color: #fff;
+}
+
+#profilePhoto {
+  border: rgba(194, 127, 102, 255) 5px solid;
+  border-radius: 50%;
+  width: 8rem;
+}
+#body {
+  margin-left: 5%;
+}
+#lastName,
+#email,
+#phone {
+  color: rgba(178, 98, 65, 255);
+}
+
+h2 {
+  font-size: 18px;
+}
+
+#content {
+  font-size: 1.5em;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+a img {
+  margin: 8px;
+}
