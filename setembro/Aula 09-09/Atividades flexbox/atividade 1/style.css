@@ -1,0 +1,21 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#orange {
+  background-color: orange;
+}
+#blue {
+  background-color: blue;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}

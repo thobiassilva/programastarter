@@ -1,0 +1,28 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#containerTop {
+  display: flex;
+  justify-content: flex-end;
+}
+#containerBottom {
+  display: flex;
+  justify-content: space-between;
+}
+.orange {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: orange;
+}
+.blue {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
