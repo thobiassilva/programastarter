@@ -1,0 +1,22 @@
+<!-- Exercicio 1
+================================
+
+- Criar uma página html contendo duas divs
+- Div 1: h1 contendo o texto "Faça o Login" e um botão "Login"
+- Div 2: h1 contendo "Bem vindo !" e um botão "Sair"
+
+- Mostrar apenas 1 das divs por vez
+- Ao clicar no botão login, mostrar Div 2
+- Ao clicar no botão sair, mostrar Div 1
+- Controlar se o usuário está logado via localStorage
+
+- Para testar, feche e abra o navegador várias vezes
+Se o usuário está logado, ele deverá ver a tela de bem vindo
+
+
+Exercicio 2
+================================
+
+- Adicione um input na tela de login para receber o nome do usuário
+- Salve o nome no localStorage ao realizar login
+- Na tela de bem vindo ("Bem vindo Fulano!"), exiba o nome do usuário -->
