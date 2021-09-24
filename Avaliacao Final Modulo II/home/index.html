@@ -15,7 +15,7 @@
     <title>Home - Meus Recados</title>
   </head>
 
-  <body>
+  <body onload="load()">
     <div class="container-fluid p-5">
       <header>
         <h1>Meus recados</h1>
@@ -85,33 +85,32 @@
       </main>
     </div>
     <!-- Modal Excluir -->
-    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal fade" id="removeModal" tabindex="-1" aria-labelledby="removeModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="deleteModalLabel">Confirmar exclusão dos dados?</h5>
+            <h5 class="modal-title" id="removeModalLabel">Confirmar exclusão dos dados?</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">Ao apagar os dados, os mesmos serão excluidos do sistema.</div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-danger">Excluir</button>
+            <button id="confirmRemove" type="button" class="btn btn-danger">Excluir</button>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
           </div>
         </div>
       </div>
     </div>
     <!-- Modal Editar -->
-    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="editModalLabel">Confirmar exclusão dos dados?</h5>
+            <h5 class="modal-title" id="updateModalLabel">Editar dados</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">Ao apagar os dados, os mesmos serão excluidos do sistema.</div>
+          <div class="modal-body"></div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Sim</button>
-            <button type="button" class="btn btn-danger">Não</button>
+            <button type="button" class="btn btn-primary">Salvar</button>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
           </div>
         </div>
