@@ -22,6 +22,11 @@ function signIn() {
 
     let users = StorageAdapter.getItem('users');
 
+    if (!users) {
+        StorageAdapter.setItem('users', []);
+        users = StorageAdapter.getItem('users');
+    }
+
     let isLogged = false;
 
     for (const user of users) {
