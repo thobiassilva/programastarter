@@ -47,7 +47,7 @@ function signUp() {
 
     sessionStorage.setItem('user', username);
 
-    location.href = '../home/index.html';
+    location.href = '../home/home.html';
 }
 
 function User(_username, _password) {
