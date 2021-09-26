@@ -88,7 +88,7 @@ function insert() {
     StorageAdapter.setItem('users', users);
 
     let index = messagesTable.rows.length
-    let buttons = `<button onClick="showRemoveModal(${index - 1})" type="button" class="btn btn-danger text-light me-2">Apagar</button><button onClick="showUpdateModal(${index - 1})" type="button" class="btn btn-success text-light">Editar</button>`;
+    let buttons = `<button onClick="showRemoveModal(${index})" type="button" class="btn btn-danger text-light me-2">Apagar</button><button onClick="showUpdateModal(${index})" type="button" class="btn btn-success text-light">Editar</button>`;
     generateRows(index, description, detail, buttons);
 
 }
