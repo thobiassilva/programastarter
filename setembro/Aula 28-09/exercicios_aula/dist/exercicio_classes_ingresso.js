@@ -42,7 +42,7 @@ class IngressoVIP extends Ingresso {
         // this.setPreco(this.getPreco() * 2);
     }
     informaPreco() {
-        console.log(`[INGRESSO VIP] ${this.atracao} - R$ ${this.atracao.getValor()}`);
+        console.log(`[INGRESSO VIP] ${this.atracao.nome} - R$ ${this.atracao.getValor() * 2}`);
     }
 }
 class Camarote extends Ingresso {

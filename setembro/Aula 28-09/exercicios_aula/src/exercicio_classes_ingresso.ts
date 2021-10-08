@@ -67,7 +67,7 @@ class IngressoVIP extends Ingresso {
     }
 
     informaPreco() {
-        console.log(`[INGRESSO VIP] ${this.atracao} - R$ ${this.atracao.getValor()}`);
+        console.log(`[INGRESSO VIP] ${this.atracao.nome} - R$ ${this.atracao.getValor() * 2}`);
     }
 }
 
