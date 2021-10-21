@@ -51,3 +51,9 @@ yarn tsc
     "forceConsistentCasingInFileNames": true        /* Disallow inconsistently-cased references to the same file. */
   }
 }
+
+------------------------------
+
+yarn add typescript -D ts-node-dev @types/node
+yarn ts-node-dev --respawn ./src/main.ts
+yarn add express
